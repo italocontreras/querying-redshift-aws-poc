@@ -1,6 +1,7 @@
 # Project
 
-A code exam for a job position using react and aws services (lambda, s3,dynamo db and api gateway)
+A query redshift poc using lambda 
+
 
 ## Tabla de Contenidos
 
@@ -15,29 +16,21 @@ A code exam for a job position using react and aws services (lambda, s3,dynamo d
 
 ## Requirements
 
-aws account, git
+aws account
 
 ## Architecture
 
-![architecture_1](./src/img/architecture_1.png)
+![architecture_1](./img/architecture_1.png)
 
 ## Instalation
 
--git clone (url)
+-download psycopg2 from https://github.com/jkehler/awslambda-psycopg2 (in this poc we used psycopg2 3.7 the same as in lambda configuration) and upload lambda layer
 
--s3 implementation in aws console
 
--api gateway implementation in aws console
+-lambda code implementation in aws console
 
--lambda implementation in aws console
+-redshift table implementation in aws console
 
--dynamo db implementation in aws console
-
--npm install
-
--npm build 
-
--aws s3 sync build/ s3://(bucket)
 
 ## Use
 
