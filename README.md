@@ -24,12 +24,15 @@ aws account
 
 ## Instalation
 
--download psycopg2 from https://github.com/jkehler/awslambda-psycopg2 (in this poc we used psycopg2 3.7 the same as in lambda configuration) and upload lambda layer
+-use python.zip or download psycopg2 from https://github.com/jkehler/awslambda-psycopg2 (in this poc we used psycopg2 3.7 the same as in lambda configuration) and upload lambda layer
 
+-create lambda function using layer uploaded
 
--lambda code implementation in aws console
+-lambda code deploy without redshift connection in aws console 
 
--redshift table implementation in aws console
+-create redshift table and insert data in aws console
+
+-lambda code deploy with redshift redshift in aws console  
 
 
 ## Use
@@ -39,26 +42,28 @@ aws account
 
 code
 
-![lambda_1](./src/img/lambda_1.PNG)
+![lambda_1](./img/lambda_1.PNG)
 
-workspace
+![lambda_2](./img/lambda_2.PNG)
 
-![lambda_2](./src/img/lambda_2.PNG)
+
 
 ##### Redshift
 
 table
 
-![s3_2](./src/img/s3_2.PNG)
+![redshift_1](./img/redshift_1.PNG)
+
 
 
 ## Evidences
 
 
 
+lambda deployed
+
 ![aws_1](./src/img/aws_1.PNG)
 
-![aws_2](./src/img/aws_2.PNG)
 
 
 ## Contribution
@@ -74,3 +79,7 @@ https://www.youtube.com/watch?v=A1zf7DveiUY&t=536s
 psycopg2 repository
 
 https://github.com/jkehler/awslambda-psycopg2
+
+other poc with s3
+
+https://www.youtube.com/watch?v=cFO2-gs56d8&t=333s

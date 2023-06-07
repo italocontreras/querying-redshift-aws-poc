@@ -1,6 +1,13 @@
 import json
 import psycopg2
 
+#dbname:defined when create workgroup
+#host:in workgroup general information
+#port:default
+#user:defined when create workgroup
+#password:defined when create workgroup
+
+
 def lambda_handler(event, context):
     conn = psycopg2.connect(
         dbname='',
