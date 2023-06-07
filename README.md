@@ -20,7 +20,8 @@ aws account
 
 ## Architecture
 
-![architecture_1](./img/architecture_1.png)
+![architecture_1](./img/architecture_1.PNG)
+
 
 ## Instalation
 
@@ -62,7 +63,7 @@ table
 
 lambda deployed
 
-![aws_1](./src/img/aws_1.PNG)
+![aws_1](./img/aws_1.PNG)
 
 
 
